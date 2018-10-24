@@ -1,3 +1,6 @@
+## 2.0.1
+- Re-add examples (woops...)
+
 ## 2.0.0
 - **Breaking**: Removed `Path.list()`
 - Added `Path.home()` constructor to get home directory

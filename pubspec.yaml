@@ -1,6 +1,6 @@
 name: pathlib
 description: Super easy object-oriented path operations
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/jwinnie/dart-pathlib
 author: Jeremy Potter <git@stormdesign.us>
 
