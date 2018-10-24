@@ -1,20 +1,8 @@
 
 # pathlib
 
-Object-oriented filesystem paths for Dart inspired by Python3 `pathlib`.
+Super easy object-oriented filesystem path operations for Dart inspired by Python3's `pathlib`. Includes addition, equality, iteration & relative path resolution out-of-the-box.
 
-## Example
-
-```dart
-
-import 'package:pathlib/pathlib.dart';
-
-main() {
-  var p = Path("lib");
-  p += Path("src/pathlib_base.dart");
-  print(p.abs);
-  print(Path("/etc") == Path("/etc"));             // => true
-  print(Path("/etc/../") == Path("/etc/passwd"));  // => false
-}
-
-```
+* [Installation](https://pub.dartlang.org/packages/pathlib#-installing-tab-)
+* [Examples](https://pub.dartlang.org/packages/pathlib#-example-tab-)
+* [Documentation](https://pub.dartlang.org/documentation/pathlib/latest/pathlib/pathlib-library.html)
